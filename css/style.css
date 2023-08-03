@@ -83,6 +83,10 @@ img {
   margin-right: 76px;
 }
 
+.logo-text {
+  color: var(--button-color);
+}
+
 .studio-color {
   color: var(--footer-color);
 }
@@ -114,10 +118,6 @@ img {
 .list-link:hover,
 .list-link:focus {
   color: var(--brand-color);
-}
-
-.logo-text {
-  color: var(--button-color);
 }
 
 .pages-list-item-link {
@@ -199,7 +199,7 @@ address {
 
 /* Section 2 */
 
-.section-2 {
+.section-two {
   padding: 120px 0;
 }
 
@@ -226,6 +226,19 @@ address {
 
 .list-title {
   margin-bottom: 8px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Section 3 */
