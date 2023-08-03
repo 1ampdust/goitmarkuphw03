@@ -283,11 +283,6 @@ address {
   padding: 100px 0;
 }
 
-.footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .footer p {
   max-width: 264px;
 }
@@ -301,6 +296,8 @@ address {
   text-transform: uppercase;
   color: var(--button-color);
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo span {
