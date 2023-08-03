@@ -98,7 +98,6 @@ img {
   letter-spacing: 0.02;
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 
 .nav-list {
@@ -109,13 +108,11 @@ img {
 .header-flex {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
 }
 
 .list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  gap: 40px;
 }
 
 .list-link:hover,
@@ -130,7 +127,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--footer-color);
   padding: 24px 0;
-  gap: 40px;
 }
 
 .link:hover,
@@ -155,7 +151,6 @@ address {
   letter-spacing: 0.02em;
   color: var(--body-color);
   text-decoration: none;
-  gap: 40px;
 }
 
 .list-information:hover,
@@ -276,15 +271,8 @@ address {
 
 /* Section 4 */
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--body-color);
-  margin-bottom: 72px;
-}
+/* Section 4 */
+
 .section-four {
   background-color: var(--classic-background-color);
   color: var(--footer-color);
@@ -296,12 +284,18 @@ address {
   background-color: var(--primary-white-color);
 }
 
+.section-four h3,
+.section-four p {
+  text-align: center;
+}
+
 .section-four h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--footer-color);
+  margin-bottom: 8px;
 }
 
 .section-four p {
@@ -311,7 +305,12 @@ address {
   color: var(--body-color);
 }
 
-.list li:first-child {
+.list {
+  display: flex;
+  gap: 24px;
+}
+
+.list li {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -324,11 +323,6 @@ address {
 
 .list-item-container {
   padding: 32px 0;
-}
-
-.list-item-container h3,
-.list-item-container p {
-  text-align: center;
 }
 
 /* Footer */
