@@ -11,9 +11,31 @@
 }
 
 body {
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--body-color);
-  background-color: var(--primary-white-color);
-  font-family: var(--primaty-font);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+  margin: 0;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img {
+  display: block;
 }
 
 /* Header */
@@ -38,6 +60,8 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
 .link {
@@ -115,16 +139,9 @@ address {
 }
 
 /* Section 1 */
-/* Section 1 */
 .section-one {
   background-color: var(--footer-color);
   padding: 188px 0;
-}
-
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .section-title-one {
@@ -157,12 +174,6 @@ address {
   padding: 120px 0;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .visually-hidden {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -170,11 +181,6 @@ address {
   border: 0;
   overflow: hidden;
   white-space: nowrap;
-}
-
-.list {
-  display: flex;
-  gap: 24px;
 }
 
 .list li:first-child {
@@ -196,19 +202,8 @@ address {
   padding-bottom: 120px;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .section-title {
   margin-bottom: 72px;
-}
-
-.list {
-  display: flex;
-  gap: 24px;
 }
 
 .list li:first-child {
@@ -225,12 +220,6 @@ address {
 }
 
 /* Section 4 */
-
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .section-title {
   font-size: 36px;
@@ -267,11 +256,6 @@ address {
   color: var(--body-color);
 }
 
-.list {
-  display: flex;
-  gap: 24px;
-}
-
 .list li:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -297,12 +281,6 @@ address {
   background-color: var(--footer-color);
   color: var(--classic-background-color);
   padding: 100px 0;
-}
-
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .footer-link {
