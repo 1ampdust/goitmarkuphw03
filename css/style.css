@@ -39,6 +39,10 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -89,6 +93,16 @@ ol {
   letter-spacing: 0.02;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -101,6 +115,31 @@ ol {
 
 .logo-text {
   color: var(--button-color);
+}
+
+.pages-list-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-color);
+  padding: 24px 0;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--brand-color);
+}
+
+/* Address */
+
+address {
+  font-style: normal;
+}
+
+.address-items {
+  display: flex;
+  gap: 40px;
 }
 
 .list-information {
@@ -116,23 +155,6 @@ ol {
   color: var(--brand-color);
 }
 
-.pages-list-item-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--footer-color);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--brand-color);
-}
-
-address {
-  font-style: normal;
-}
-
 /* Section 1 */
 .section-one {
   background-color: var(--footer-color);
@@ -146,14 +168,22 @@ address {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .section-button {
+  background-color: var(--button-color);
+  font-family: var(--primaty-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  background-color: var(--button-color);
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
