@@ -253,15 +253,15 @@ address {
   gap: 24px;
 }
 
-.list li:first-child {
-  flex-basis: calc((100% - 48px) / 3);
-}
-
-.list li {
+.imagine-list {
   margin-right: 24px;
 }
 
-.list li:last-child {
+.imagine-list:first-child {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.imagine-list:last-child {
   margin-right: 0;
 }
 
