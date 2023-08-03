@@ -198,7 +198,6 @@ address {
 }
 
 /* Section 2 */
-
 .section-two {
   padding: 120px 0;
 }
@@ -206,6 +205,10 @@ address {
 .list-two {
   display: flex;
   gap: 24px;
+}
+
+.list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .list-title {
@@ -221,11 +224,6 @@ address {
 
 .two-items {
   max-width: 264px;
-  width: calc((100% - 72px) / 4);
-}
-
-.list-title {
-  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -250,13 +248,21 @@ address {
   margin-bottom: 72px;
 }
 
-.list li:first-child {
-  width: calc((100% - 48px) / 3);
+.list {
+  display: flex;
+  gap: 24px;
 }
 
-.list li:nth-child(2),
-.list li:nth-child(3) {
-  width: calc((100% - 48px) / 3);
+.list li:first-child {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.list li {
+  margin-right: 24px;
+}
+
+.list li:last-child {
+  margin-right: 0;
 }
 
 .section-team-card {
