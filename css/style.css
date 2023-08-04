@@ -418,7 +418,7 @@ address {
   background-color: var(--classic-background-color);
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--border);
+  border: 1px solid #e7e9fc;
 }
 
 .filters-button:hover,
@@ -435,9 +435,13 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--footer-color);
+  margin-bottom: 8px;
 }
 
 .cadr-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
