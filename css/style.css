@@ -349,6 +349,10 @@ address {
   padding: 32px 0;
 }
 
+.section-team-card h3 {
+  margin-bottom: 8px;
+}
+
 .section-team-card:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
