@@ -100,7 +100,7 @@ img {
   align-items: center;
 }
 
-.nav-link {
+.nav-list {
   display: flex;
   gap: 40px;
 }
@@ -145,17 +145,28 @@ address {
   gap: 40px;
 }
 
-.list-information {
-  font-size: 16px;
+.address-link {
+  color: var(--body-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-color);
-  text-decoration: none;
+}
+
+.address-items:last-child {
+  margin-right: 0;
 }
 
 .list-information:hover,
 .list-information:focus {
   color: var(--brand-color);
+}
+
+.contact-list {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  padding: 25px 0 25px 0;
 }
 
 /* Section 1 */
