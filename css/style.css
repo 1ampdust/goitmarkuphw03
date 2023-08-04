@@ -50,11 +50,7 @@ img {
 }
 
 .link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--body-color);
-  padding: 24px 0;
 }
 
 /* Header */
@@ -99,7 +95,6 @@ img {
   letter-spacing: 0.02;
   display: flex;
   align-items: center;
-  margin-right: 40px;
 }
 
 .nav-list {
@@ -280,11 +275,6 @@ address {
 
 .section-title {
   margin-bottom: 72px;
-}
-
-.list {
-  display: flex;
-  gap: 24px;
 }
 
 .imagine-list {
