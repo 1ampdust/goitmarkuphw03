@@ -262,6 +262,16 @@ address {
 }
 
 /* Section 3 */
+
+.section-title-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--footer-color);
+  text-align: center;
+  margin-bottom: 8px;
+}
 .section-three {
   padding-bottom: 120px;
 }
@@ -301,8 +311,8 @@ address {
   color: var(--footer-color);
   text-align: center;
   margin-bottom: 72px;
-  margin-bottom: 8px;
 }
+
 .section-four {
   background-color: var(--classic-background-color);
   color: var(--footer-color);
