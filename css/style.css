@@ -100,7 +100,7 @@ img {
   align-items: center;
 }
 
-.nav-list {
+.nav-link {
   display: flex;
   gap: 40px;
 }
@@ -113,7 +113,6 @@ img {
 .list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-right: 40px;
 }
 
 .list-link:hover,
@@ -152,7 +151,6 @@ address {
   letter-spacing: 0.02em;
   color: var(--body-color);
   text-decoration: none;
-  margin-right: 40px;
 }
 
 .list-information:hover,
