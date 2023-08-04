@@ -43,15 +43,23 @@ img {
   display: block;
 }
 
-/* Header */
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--body-color);
+  padding: 24px 0;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .menu {
@@ -61,14 +69,6 @@ img {
 
 .menu li:last-child {
   margin-right: 0;
-}
-
-.link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--body-color);
-  padding: 24px 0;
 }
 
 .logo {
