@@ -299,9 +299,8 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--footer-color);
-  margin-bottom: 8px;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .section-four {
   background-color: var(--classic-background-color);
@@ -335,14 +334,18 @@ address {
   text-align: center;
 }
 
-.list li:first-child {
+.team-container {
+  padding: 32px 0;
+}
+
+.section-team-card:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
-.list li:nth-child(2),
-.list li:nth-child(3),
-.list li:nth-child(4) {
+.section-team-card:nth-child(2),
+.section-team-card:nth-child(3),
+.section-team-card:nth-child(4) {
   width: calc((100% - 72px) / 4);
 }
 
