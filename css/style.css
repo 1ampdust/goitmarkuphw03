@@ -58,6 +58,7 @@ img {
 }
 
 /* Header */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -132,6 +133,14 @@ img {
 .link:hover,
 .link:focus {
   color: var(--brand-color);
+}
+
+.list-link {
+  margin-right: 40px;
+}
+
+.address-items {
+  margin-right: 40px;
 }
 
 /* Address */
