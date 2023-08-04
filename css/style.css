@@ -294,13 +294,14 @@ address {
 /* Section 4 */
 
 .section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--body-color);
-  margin-bottom: 72px;
+  color: var(--footer-color);
+  margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .section-four {
   background-color: var(--classic-background-color);
@@ -308,24 +309,30 @@ address {
   padding: 120px 0;
 }
 
+.section-for-list {
+  display: flex;
+  gap: 24px;
+}
+
 .section-four ul {
   list-style: none;
   background-color: var(--primary-white-color);
 }
 
-.section-four h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--footer-color);
+.section-team-card {
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.section-four p {
+.card-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
+  text-align: center;
 }
 
 .list li:first-child {
