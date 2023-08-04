@@ -218,6 +218,10 @@ address {
   gap: 24px;
 }
 
+.list-two:last-child {
+  margin-right: 0;
+}
+
 .list-item {
   width: calc((100% - 72px) / 4);
 }
@@ -231,6 +235,13 @@ address {
   margin-bottom: 8px;
   text-align: center;
   margin-bottom: 8px;
+}
+
+.main-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
 }
 
 .two-items {
