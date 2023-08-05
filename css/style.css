@@ -272,7 +272,6 @@ address {
 }
 
 .imagine-list {
-  margin-right: 24px;
   flex-basis: calc((100% - 48px) / 3);
 }
 
