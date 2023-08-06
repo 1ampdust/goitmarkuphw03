@@ -378,6 +378,11 @@ address {
   color: var(--cloud);
 }
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
