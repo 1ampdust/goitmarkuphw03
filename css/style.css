@@ -60,7 +60,6 @@ ul {
 }
 
 /* Header */
-
 .header {
   border-bottom: 1px solid var(--cornflower);
   height: 72px;
@@ -150,7 +149,6 @@ ul {
 }
 
 /* Address */
-
 address {
   font-style: normal;
 }
@@ -276,7 +274,6 @@ address {
 }
 
 /* Section 3 */
-
 .section-title-second {
   text-align: center;
   font-size: 36px;
@@ -304,7 +301,6 @@ address {
 }
 
 /* Section 4 */
-
 .section-title {
   font-weight: 500;
   font-size: 20px;
@@ -367,7 +363,6 @@ address {
 }
 
 /* Footer */
-
 .footer {
   background-color: var(--grey);
   margin-top: 120px;
@@ -381,6 +376,7 @@ address {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0px;
 }
 
 .footer-paragraph {
@@ -389,9 +385,8 @@ address {
   color: var(--cloud);
   max-width: 264px;
 }
-/* Portfolio css*/
 
-/* Main*/
+/* Portfolio css*/
 .filters-button {
   font-family: var(--primaty-font);
   font-weight: 500;
