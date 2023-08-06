@@ -186,7 +186,6 @@ address {
 .section-one {
   background-color: var(--grey);
   padding: 188px 0;
-  margin-top: 41px;
 }
 
 .section-title-one {
@@ -365,7 +364,6 @@ address {
 /* Footer */
 .footer {
   background-color: var(--grey);
-  margin-top: 120px;
   padding: 100px 0;
 }
 
@@ -436,7 +434,6 @@ address {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 
 .card-list {
