@@ -355,6 +355,10 @@ address {
   padding: 100px 0;
 }
 
+.footer-logo-color {
+  color: var(--cloud);
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
@@ -363,7 +367,7 @@ address {
 .footer-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--grey);
+  color: var(--cloud);
   max-width: 264px;
 }
 /* Portfolio css*/
