@@ -1,19 +1,25 @@
 /* Head */
 :root {
-  --brand-color: #404bbf;
-  --primary-white-color: #ffffff;
-  --body-color: #434455;
-  --classic-background-color: #f4f4fd;
-  --footer-color: #2e2f42;
-  --button-color: #4d5ae5;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --diary: #fcfcfc;
   --primaty-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
 }
 
 body {
   font-family: var(--primaty-font);
-  color: var(--body-color);
-  background-color: var(--primary-white-color);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 ul,
@@ -44,7 +50,8 @@ img {
 /* Header */
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--cornflower);
+  height: 72px;
 }
 
 .menu {
@@ -57,23 +64,22 @@ img {
 }
 
 .logo {
+  color: var(--iris);
   font-family: var(--title-font);
-  font-weight: 800;
   font-size: 18px;
+  font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--button-color);
-  text-decoration: none;
   margin-right: 76px;
 }
 
 .logo-text {
-  color: var(--button-color);
+  color: var(--iris);
 }
 
 .studio-color {
-  color: var(--footer-color);
+  color: var(--grey);
 }
 
 .nav-link {
@@ -106,7 +112,7 @@ img {
 
 .list-link:hover,
 .list-link:focus {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 .pages-list-item-link {
@@ -114,13 +120,13 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
+  color: var(--grey);
   padding: 24px 0;
 }
 
 .link:hover,
 .link:focus {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 /* Address */
@@ -135,7 +141,7 @@ address {
 }
 
 .address-link {
-  color: var(--body-color);
+  color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -146,7 +152,7 @@ address {
 
 .list-information:hover,
 .list-information:focus {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 .contact-list {
@@ -160,7 +166,7 @@ address {
 
 /* Section 1 */
 .section-one {
-  background-color: var(--footer-color);
+  background-color: var(--grey);
   padding: 188px 0;
   margin-top: 41px;
 }
@@ -170,20 +176,20 @@ address {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--primary-white-color);
+  color: var(--white);
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
 
 .section-button {
-  background-color: var(--button-color);
+  background-color: var(--iris);
   font-family: var(--primaty-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-white-color);
+  color: var(--white);
   display: block;
   min-width: 169px;
   height: 56px;
@@ -195,7 +201,7 @@ address {
 
 .section-button:hover,
 .section-button:focus {
-  background-color: var(--brand-color);
+  background-color: var(--ocean);
 }
 
 /* Section 2 */
@@ -221,7 +227,7 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
+  color: var(--navy-blue);
   margin-bottom: 8px;
   text-align: center;
   margin-bottom: 8px;
@@ -231,7 +237,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-color);
+  color: var(--slate);
 }
 
 .two-items {
@@ -259,7 +265,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--footer-color);
+  color: var(--grey);
   margin-bottom: 72px;
 }
 .section-three {
@@ -276,7 +282,7 @@ address {
 }
 
 .section-team-card {
-  background-color: var(--primary-white-color);
+  background-color: var(--white);
 }
 
 /* Section 4 */
@@ -286,14 +292,14 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
+  color: var(--grey);
   margin-bottom: 8px;
   text-align: center;
   margin-bottom: 8px;
 }
 
 .section-four {
-  background-color: var(--classic-background-color);
+  background-color: var(--cloud);
   padding: 120px 0;
 }
 
@@ -303,7 +309,7 @@ address {
 }
 
 .section-team-card {
-  background-color: var(--primary-white-color);
+  background-color: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -314,7 +320,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-color);
+  color: var(--slate);
   text-align: center;
 }
 
@@ -344,36 +350,21 @@ address {
 
 /* Footer */
 .footer {
-  background-color: var(--footer-color);
+  background-color: var(--grey);
   margin-top: 120px;
   padding: 100px 0;
 }
 
-.footer p {
-  max-width: 264px;
-}
-
-.footer-logo {
-  font-family: var(--title-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--button-color);
-  text-decoration: none;
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.footer-logo span {
-  color: var(--classic-background-color);
 }
 
 .footer-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--classic-background-color);
+  color: var(--grey);
+  max-width: 264px;
 }
 /* Portfolio css*/
 /* Main*/
@@ -383,8 +374,8 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--button-color);
-  background-color: var(--classic-background-color);
+  color: var(--iris);
+  background-color: var(--cloud);
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
@@ -392,8 +383,8 @@ address {
 
 .filters-button:hover,
 .filters-button:focus {
-  color: var(--primary-white-color);
-  background-color: var(--brand-color);
+  color: var(--white);
+  background-color: var(--ocean);
   cursor: pointer;
   border: 1px solid transparent;
 }
@@ -403,12 +394,12 @@ address {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--footer-color);
+  color: var(--grey);
   margin-bottom: 8px;
 }
 
 .cadr-text {
-  color: var(--body-color);
+  color: var(--slate);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -416,7 +407,7 @@ address {
 }
 
 .card-wrapper {
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--cornflower);
   padding: 32px 16px;
   border-top: none;
 }
