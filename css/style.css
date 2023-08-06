@@ -367,6 +367,7 @@ address {
   max-width: 264px;
 }
 /* Portfolio css*/
+
 /* Main*/
 .filters-button {
   font-family: var(--primaty-font);
@@ -378,7 +379,7 @@ address {
   background-color: var(--cloud);
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--cornflower);
 }
 
 .filters-button:hover,
