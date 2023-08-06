@@ -47,6 +47,18 @@ img {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 
 .header {
@@ -113,6 +125,14 @@ img {
 .list-link:hover,
 .list-link:focus {
   color: var(--ocean);
+}
+
+.list-link:first-child {
+  margin-left: 0;
+}
+
+.list-link:last-child {
+  margin-right: 0;
 }
 
 .pages-list-item-link {
